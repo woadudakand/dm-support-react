@@ -1,0 +1,785 @@
+{
+  "transaction":{
+    "today": [
+      {
+          "key": "01",          
+          "price": "$280",
+          "date": "15 Mar,2021",
+          "status": "Paid"
+      },
+      {
+        "key": "02",          
+        "price": "$380",
+        "date": "25 Mar,2021",
+        "status": "Unpaid"
+      },
+      {
+        "key": "03",          
+        "price": "$380",
+        "date": "5 Mar,2021",
+        "status": "Unpaid"
+      },
+      {
+        "key": "04",          
+        "price": "$390",
+        "date": "25 Mar,2021",
+        "status": "Paid"
+      },
+      {
+        "key": "06",          
+        "price": "$380",
+        "date": "25 Mar,2021",
+        "status": "Paid"
+      }
+    ],
+    "week": [
+        {
+          "key": "07",          
+          "price": "$950",
+          "date": "25 Apr,2021",
+          "status": "Unpaid"
+        },
+        {
+          "key": "08",          
+          "price": "$380",
+          "date": "23 Mar,2021",
+          "status": "Paid"
+        },
+        {
+          "key": "09",          
+          "price": "$1380",
+          "date": "25 Mar,2021",
+          "status": "Paid"
+        },
+        {
+          "key": "10",          
+          "price": "$3080",
+          "date": "25 Mar,2021",
+          "status": "Paid"
+        },
+        {
+          "key": "11",          
+          "price": "$380",
+          "date": "25 Mar,2021",
+          "status": "Unpaid"
+        }
+    ],
+    "month": [
+      {
+        "key": "12",          
+        "price": "$780",
+        "date": "30 Mar,2021",
+        "status": "Paid"
+      },
+      {
+        "key": "13",          
+        "price": "$380",
+        "date": "20 Mar,2021",
+        "status": "Unpaid"
+      },
+      {
+        "key": "14",          
+        "price": "$580",
+        "date": "25 Mar,2021",
+        "status": "Unpaid"
+      },
+      {
+        "key": "15",          
+        "price": "$380",
+        "date": "05 Mar,2021",
+        "status": "Unpaid"
+      },
+      {
+        "key": "16",          
+        "price": "$380",
+        "date": "25 Mar,2021",
+        "status": "Paid"
+      }
+    ]
+  },
+
+  "trafficMetrics": {
+    "today": [
+      {
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "users": "23,397",
+        "nUsers": "17,201",
+        "pages": "5,536",
+        "rate": "90%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "users": "23,397",
+        "nUsers": "14,201",
+        "pages": "5,536",
+        "rate": "57%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "info"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "users": "23,397",
+        "nUsers": "16,201",
+        "pages": "5,536",
+        "rate": "78%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "success"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "users": "23,397",
+        "nUsers": "13,201",
+        "pages": "5,536",
+        "rate": "96%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "violet"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "users": "23,397",
+        "nUsers": "16,201",
+        "pages": "5,536",
+        "rate": "21%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "warning"
+      }
+    ],
+    "week": [
+      {
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "users": "26,397",
+        "nUsers": "53,465",
+        "pages": "4,617",
+        "rate": "70%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "users": "22,454",
+        "nUsers": "83,734",
+        "pages": "4,328",
+        "rate": "53%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "info"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "users": "29,364",
+        "nUsers": "74,345",
+        "pages": "6,438",
+        "rate": "86%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "success"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "users": "24,565",
+        "nUsers": "24,572",
+        "pages": "4,257",
+        "rate": "98%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "violet"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "users": "16,637",
+        "nUsers": "30,234",
+        "pages": "8,559",
+        "rate": "20%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "warning"
+      }
+    ],
+    "month": [
+      {
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "users": "29,575",
+        "nUsers": "11,317",
+        "pages": "8,472",
+        "rate": "60%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "users": "11,159",
+        "nUsers": "10,470",
+        "pages": "6,538",
+        "rate": "54%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "info"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "users": "21,341",
+        "nUsers": "22,010",
+        "pages": "6,017",
+        "rate": "71%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "success"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "users": "23,258",
+        "nUsers": "11,184",
+        "pages": "6,368",
+        "rate": "92%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "violet"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "users": "22,249",
+        "nUsers": "10,151",
+        "pages": "5,536",
+        "rate": "20%",
+        "session": "2,584",
+        "duration": "00:01:05",
+        "type": "warning"
+      }
+    ]
+  },
+    
+  "topSaleProduct":{
+      "today": [
+          {
+              "key": "1",
+              "img": "1.png",
+              "name": "Samsung Galaxy S8 256GB",
+              "price": "$280",
+              "device": "Laptop",
+              "sold": "126",
+              "revenue": "$38,536"
+          },
+          {
+              "key": "2",
+              "img": "2.png",
+              "name": "Half Sleeve Shirt",
+              "device": "Mobile",
+              "price": "$39",
+              "sold": "180",
+              "revenue": "$20,573"
+            },
+            {
+              "key": "3",
+              "img": "3.png",
+              "name": "Marco Shoes",
+              "device": "Bag",
+              "price": "$89",
+              "sold": "581",
+              "revenue": "$170,758"
+            },
+            {
+              "key": "4",
+              "img": "5.png",
+              "name": "Marco Shoes",
+              "device": "Hard disk",
+              "price": "$32",
+              "sold": "451",
+              "revenue": "$258,105"
+            },
+            {
+              "key": "5",
+              "img": "4.png",
+              "name": "15\" MackBook Pro",
+              "device": "laptop",
+              "price": "$950",
+              "sold": "745",
+              "revenue": "$745,154"
+            }
+      ],
+      "week": [
+          {
+              "key": "1",
+              "img": "1.png",
+              "name": "Samsung Note 10 256GB",
+              "device": "laptop",
+              "price": "$450",
+              "sold": "300",
+              "revenue": "$43060"
+          },
+          {
+              "key": "2",
+              "img": "2.png",
+              "name": "Full Sleeve Shirt",
+              "device": "laptop",
+              "price": "$49",
+              "sold": "300",
+              "revenue": "$3178"
+            },
+            {
+              "key": "3",
+              "img": "3.png",
+              "name": "Nike Shoes",
+              "device": "laptop",
+              "price": "$89",
+              "sold": "581",
+              "revenue": "$170,758"
+            },
+            {
+              "key": "4",
+              "img": "5.png",
+              "name": "Bata Shoes",
+              "device": "laptop",
+              "price": "$32",
+              "sold": "451",
+              "revenue": "$258,105"
+            },
+            {
+              "key": "5",
+              "img": "4.png",
+              "name": "15\" MackBook Pro",
+              "device": "laptop",
+              "price": "$950",
+              "sold": "745",
+              "revenue": "$745,154"
+            }
+      ],
+      "month": [
+          {
+              "key": "1",
+              "img": "1.png",
+              "name": "Samsung Galaxy Premio 256GB",
+              "device": "laptop",
+              "price": "$670",
+              "sold": "126",
+              "revenue": "$40,988"
+          },
+          {
+              "key": "2",
+              "img": "2.png",
+              "name": "Half Sleeve Shirt",
+              "device": "laptop",
+              "price": "$39",
+              "sold": "180",
+              "revenue": "$20,573"
+            },
+            {
+              "key": "3",
+              "img": "3.png",
+              "name": "Marco Shoes",
+              "device": "laptop",
+              "price": "$89",
+              "sold": "581",
+              "revenue": "$170,758"
+            },
+            {
+              "key": "4",
+              "img": "5.png",
+              "name": "Marco Shoes",
+              "device": "laptop",
+              "price": "$32",
+              "sold": "451",
+              "revenue": "$258,105"
+            },
+            {
+              "key": "5",
+              "img": "4.png",
+              "name": "15\" MackBook Pro",
+              "device": "laptop",
+              "price": "$950",
+              "sold": "745",
+              "revenue": "$745,154"
+            }
+      ]
+  },
+  
+  
+  "newProduct":{
+    "today": [
+        {
+          "key": "1",
+          "img": "6.png",
+          "name": "UV Protected Sunglass",
+          "price": "$38,536"
+        },
+        {
+          "key": "2",
+          "img": "7.png",
+          "name": "Black Headphone",
+          "price": "$38,536"
+        },
+        {
+          "key": "3",
+          "img": "8.png",
+          "name": "Nike Shoes",
+          "price": "$38,536"
+        },
+        {
+          "key": "4",
+          "img": "9.png",
+          "name": "Women Bag",
+          "price": "$38,536"
+        },
+        {
+          "key": "5",
+          "img": "4.png",
+          "name": "15`` Mackbook Pro",
+          "price": "$38,536"
+        }
+      ],
+    "week": [
+        {
+          "key": "1",
+          "img": "6.png",
+          "name": "New Model Sunglass",
+          "price": "$38,536"
+        },
+        {
+          "key": "2",
+          "img": "7.png",
+          "name": "Smart Headphone",
+          "price": "$38,536"
+        },
+        {
+          "key": "3",
+          "img": "8.png",
+          "name": "Nike Shoes",
+          "price": "$38,536"
+        },
+        {
+          "key": "4",
+          "img": "9.png",
+          "name": "Men Bag",
+          "price": "$38,536"
+        },
+        {
+          "key": "5",
+          "img": "4.png",
+          "name": "15`` Toshiba Pro",
+          "price": "$38,536"
+        }
+      ],
+    "month": [
+        {
+          "key": "1",
+          "img": "6.png",
+          "name": "Computer Light Sunglass",
+          "price": "$38,536"
+        },
+        {
+          "key": "2",
+          "img": "7.png",
+          "name": "Large Headphone",
+          "price": "$38,536"
+        },
+        {
+          "key": "3",
+          "img": "8.png",
+          "name": "Nike Shoes",
+          "price": "$38,536"
+        },
+        {
+          "key": "4",
+          "img": "9.png",
+          "name": "High Quality Bag",
+          "price": "$38,536"
+        },
+        {
+          "key": "5",
+          "img": "4.png",
+          "name": "15`` Lenovo Pro",
+          "price": "$38,536"
+        }
+      ]
+  },
+      
+  "topProduct":{
+    "today": [
+        {
+            "key": "1",
+            "img": "1.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+        },
+        {
+            "key": "2",
+            "img": "2.png",
+            "name": "Half Sleeve Shirt",
+            "deals": "$60",
+            "amount": "454",
+            "device": "Mobile"
+          },
+          {
+            "key": "3",
+            "img": "3.png",
+            "name": "Marco Shoes",
+            "deals": "$80",
+            "amount": "7898",
+            "device": "Camera"
+          },
+          {
+            "key": "4",
+            "img": "5.png",
+            "name": "Apple Mobile Phone",
+            "deals": "$480",
+            "amount": "21",
+            "device": "Mobile"
+          },
+          {
+            "key": "5",
+            "img": "4.png",
+            "name": "Microlab Headphone",
+            "deals": "$10",
+            "amount": "56446",
+            "device": "Headphone"
+          },
+          {
+            "key": "6",
+            "img": "7.png",
+            "name": "Women Bag",
+            "deals": "$100",
+            "amount": "11046",
+            "device": "Laptop"
+          }
+    ],
+    "week": [
+        {
+            "key": "1",
+            "img": "1.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+        },
+        {
+            "key": "2",
+            "img": "2.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "3",
+            "img": "3.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "4",
+            "img": "5.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "5",
+            "img": "4.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "6",
+            "img": "7.png",
+            "name": "Women Bag",
+            "deals": "$100",
+            "amount": "11046",
+            "device": "Laptop"
+          }
+    ],
+    "month": [
+        {
+            "key": "1",
+            "img": "1.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+        },
+        {
+            "key": "2",
+            "img": "2.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "3",
+            "img": "3.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "4",
+            "img": "5.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "5",
+            "img": "4.png",
+            "name": "Samsung Galaxy S8 256GB",
+            "deals": "$280",
+            "amount": "126",
+            "device": "Laptop"
+          },
+          {
+            "key": "6",
+            "img": "7.png",
+            "name": "Women Bag",
+            "deals": "$100",
+            "amount": "11046",
+            "device": "Laptop"
+          }
+    ]
+  },
+  
+  "salesLocation": {
+    "today": [
+      [
+        "United states",
+        "90",
+        "$536"
+      ],
+      [
+        "United kingdom",
+        "70",
+        "$573"
+      ],
+      [
+        "Canada",
+        "70",
+        "$457"
+      ],
+      [
+        "Japan",
+        "30",
+        "$524"
+      ],
+      [
+        "Bangladesh",
+        "50",
+        "$354"
+      ],
+      [
+        "India",
+        "60",
+        "$654"
+      ]
+    ],
+    "week": [
+      [
+        "Japan",
+        "90",
+        "$336"
+      ],
+      [
+        "United kingdom",
+        "70",
+        "$873"
+      ],
+      [
+        "Canada",
+        "70",
+        "$557"
+      ],
+      [
+        "Japan",
+        "30",
+        "$525"
+      ],
+      [
+        "Bangladesh",
+        "50",
+        "$352"
+      ],
+      [
+        "Pakistan",
+        "60",
+        "$658"
+      ]
+    ],
+    "month": [
+      [
+        "Russia",
+        "90",
+        "$534"
+      ],
+      [
+        "Germany",
+        "70",
+        "$573"
+      ],
+      [
+        "Canada",
+        "70",
+        "$487"
+      ],
+      [
+        "Japan",
+        "30",
+        "$514"
+      ],
+      [
+        "Bangladesh",
+        "50",
+        "$394"
+      ],
+      [
+        "Vutan",
+        "60",
+        "$354"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="confused" transform="translate(-0.416 -0.416)">
+    <circle id="Ellipse_3201" data-name="Ellipse 3201" cx="22.5" cy="22.5" r="22.5" transform="translate(0.416 0.416)" fill="#ffd93b"/>
+    <path id="Path_13246" data-name="Path 13246" d="M96.973,74.339A22.635,22.635,0,0,1,56.72,88.549,22.635,22.635,0,0,0,88.549,56.72,22.61,22.61,0,0,1,96.973,74.339Z" transform="translate(-51.557 -51.557)" fill="#f4c534"/>
+    <g id="Group_11223" data-name="Group 11223" transform="translate(12.205 15.085)">
+      <path id="Path_13247" data-name="Path 13247" d="M161.683,331.711a1.23,1.23,0,0,1-1.231,1.231h-17.8a1.231,1.231,0,1,1,0-2.461h17.8A1.23,1.23,0,0,1,161.683,331.711Z" transform="translate(-140.977 -316.198)" fill="#3e4347"/>
+      <circle id="Ellipse_3202" data-name="Ellipse 3202" cx="3.372" cy="3.372" r="3.372" fill="#3e4347"/>
+    </g>
+    <ellipse id="Ellipse_3203" data-name="Ellipse 3203" cx="0.886" cy="0.573" rx="0.886" ry="0.573" transform="translate(17.075 18.132) rotate(-126.653)" fill="#5a5f63"/>
+    <circle id="Ellipse_3204" data-name="Ellipse 3204" cx="3.372" cy="3.372" r="3.372" transform="translate(26.61 15.085)" fill="#3e4347"/>
+    <ellipse id="Ellipse_3205" data-name="Ellipse 3205" cx="0.886" cy="0.573" rx="0.886" ry="0.573" transform="matrix(-0.597, -0.802, 0.802, -0.597, 31.479, 18.136)" fill="#5a5f63"/>
+  </g>
+</svg>

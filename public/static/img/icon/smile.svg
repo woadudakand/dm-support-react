@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="smile" transform="translate(-0.215 -0.215)">
+    <circle id="Ellipse_3196" data-name="Ellipse 3196" cx="20" cy="20" r="20" transform="translate(0.215 0.215)" fill="#ffd93b"/>
+    <path id="Path_13235" data-name="Path 13235" d="M109.521,294.667a12.847,12.847,0,0,1-12.452-9.678.837.837,0,1,1,1.622-.414,11.175,11.175,0,0,0,21.659,0,.837.837,0,1,1,1.623.414A12.845,12.845,0,0,1,109.521,294.667Z" transform="translate(-89.402 -261.631)" fill="#3e4347"/>
+    <path id="Path_13236" data-name="Path 13236" d="M92.461,72.364A20.1,20.1,0,0,1,56.72,84.981,20.1,20.1,0,0,0,84.981,56.72,20.075,20.075,0,0,1,92.461,72.364Z" transform="translate(-52.245 -52.245)" fill="#f4c534"/>
+    <ellipse id="Ellipse_3197" data-name="Ellipse 3197" cx="3.08" cy="3.66" rx="3.08" ry="3.66" transform="translate(10.549 13.656)" fill="#3e4347"/>
+    <path id="Path_13237" data-name="Path 13237" d="M178.3,195.947a.664.664,0,0,1-.887-.211.574.574,0,1,1,.86-.7A.666.666,0,0,1,178.3,195.947Z" transform="translate(-163.279 -179.418)" fill="#5a5f63"/>
+    <ellipse id="Ellipse_3198" data-name="Ellipse 3198" cx="3.08" cy="3.66" rx="3.08" ry="3.66" transform="translate(23.533 13.656)" fill="#3e4347"/>
+    <path id="Path_13238" data-name="Path 13238" d="M343.657,195.947a.664.664,0,0,1-.887-.211.574.574,0,1,1,.86-.7A.666.666,0,0,1,343.657,195.947Z" transform="translate(-315.658 -179.418)" fill="#5a5f63"/>
+  </g>
+</svg>
