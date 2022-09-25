@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { OverviewDataStyleWrap } from '../../Style';
 import OverviewCard from '../../../../components/cards/OverviewCard';
-
 import SupportOverview from '../../../../demoData/supportOverview.json';
 
 const OverviewDataList = React.memo(() => {

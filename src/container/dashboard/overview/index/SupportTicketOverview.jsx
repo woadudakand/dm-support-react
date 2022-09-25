@@ -115,7 +115,7 @@ const SupportTicketOverview = React.memo(({ title }) => {
             }}
             series={[
               {
-                name: 'Impression',
+                name: 'Tickets',
                 data: earnings[earningsTab].impression,
                 color: '#599700',
               },
