@@ -4,11 +4,7 @@ import { PageHeader } from '../../components/page-headers/page-headers';
 import { Cards } from '../../components/cards/frame/cards-frame';
 import { Main } from '../styled';
 
-const NewProduct = lazy(() => import('../dashboard/overview/index/NewProduct'));
-const RevenueSource = lazy(() => import('../dashboard/overview/index/RevenueSource'));
-const RecentActivity = lazy(() => import('../dashboard/overview/index/RecentActivity'));
-const TopSellingProduct = lazy(() => import('../dashboard/overview/index/TopSellingProducts'));
-const LatestTransaction = lazy(() => import('../dashboard/overview/index/LatestTransaction'));
+const AllSupports = lazy(() => import('../dashboard/overview/index/AllSupports'));
 
 function Tables() {
   const dataSource = [
@@ -54,7 +50,7 @@ function Tables() {
               <Table className="table-responsive" pagination={false} dataSource={dataSource} columns={columns} />
             </Cards>
           </Col>
-          <Col xl={12} xs={24}>
+          <Col xs={24}>
             <Suspense
               fallback={
                 <Cards headless>
@@ -62,51 +58,7 @@ function Tables() {
                 </Cards>
               }
             >
-              <NewProduct />
-            </Suspense>
-          </Col>
-          <Col xl={12} xs={24}>
-            <Suspense
-              fallback={
-                <Cards headless>
-                  <Skeleton active />
-                </Cards>
-              }
-            >
-              <RevenueSource />
-            </Suspense>
-          </Col>
-          <Col xl={24} xs={24}>
-            <Suspense
-              fallback={
-                <Cards headless>
-                  <Skeleton active />
-                </Cards>
-              }
-            >
-              <RecentActivity />
-            </Suspense>
-          </Col>
-          <Col xl={24} xs={24}>
-            <Suspense
-              fallback={
-                <Cards headless>
-                  <Skeleton active />
-                </Cards>
-              }
-            >
-              <TopSellingProduct />
-            </Suspense>
-          </Col>
-          <Col xl={24} xs={24}>
-            <Suspense
-              fallback={
-                <Cards headless>
-                  <Skeleton active />
-                </Cards>
-              }
-            >
-              <LatestTransaction />
+              <AllSupports />
             </Suspense>
           </Col>
         </Row>

@@ -4,7 +4,7 @@ import { Aside, Content } from './overview/style';
 import Heading from '../../components/heading/heading';
 import { imageUrl } from '../../components/utilities/image';
 
-const AuthLayout = (WraperContent) => {
+const AuthLayout = (WrapperContent) => {
   return function () {
     return (
       <Row>
@@ -18,7 +18,7 @@ const AuthLayout = (WraperContent) => {
                 <br />
                 <br />
                 <Heading as="h1">
-                  Ecommerce React <br />
+                  Support React <br />
                   Web Application
                 </Heading>
                 <img className="auth-content-figure" src={imageUrl('static/img/auth/Illustration.png')} alt="" />
@@ -28,7 +28,7 @@ const AuthLayout = (WraperContent) => {
         </Col>
 
         <Col xxl={16} xl={15} lg={12} md={16} xs={24}>
-          <WraperContent />
+          <WrapperContent />
         </Col>
       </Row>
     );

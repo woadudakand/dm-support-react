@@ -26,14 +26,14 @@ function SupportCreate({ visible, onCancel, handleSubmit, editableData }) {
     <Modal
       getContainer={false}
       type="primary"
-      title="Create Support"
+      title="Edit Support"
       visible={visible}
       footer={null}
       onCancel={handleCancel}
     >
       <div className="project-modal">
         <BasicFormWrapper>
-          <Form form={form} name="supportCreate" onFinish={handleOk}>
+          <Form form={form} name="supportUpdate" onFinish={handleOk}>
             <Form.Item
               name="email"
               label="Email"
