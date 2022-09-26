@@ -46,7 +46,7 @@ function Dashboard() {
           </Col>
         </Row>
         <Row gutter={25}>
-          <Col xl={12} xs={24}>
+          <Col xxl={8} xl={12} xs={24}>
             <Suspense
               fallback={
                 <Cards headless>
@@ -57,7 +57,7 @@ function Dashboard() {
               <TicketTypes />
             </Suspense>
           </Col>
-          <Col xl={12} xs={24}>
+          <Col xxl={8} xl={12} xs={24}>
             <Suspense
               fallback={
                 <Cards headless>
@@ -69,7 +69,7 @@ function Dashboard() {
             </Suspense>
           </Col>
 
-          <Col xl={12} xs={24}>
+          <Col xxl={8} xl={12} xs={24}>
             <Suspense
               fallback={
                 <Cards headless>

@@ -10,7 +10,7 @@ const OverviewDataList = React.memo(() => {
       <Row gutter={25}>
         {SupportOverview.map((item, i) => {
           return (
-            <Col xxl={6} sm={12} xs={24} key={i}>
+            <Col sm={12} xs={24} key={i}>
               <OverviewCard className="dm-overview-card-support" data={item} bottomStatus={false} contentFirst />
             </Col>
           );
